@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
+body{
+    padding: 50px;
+}
+/* is padding s hmny is he side m kia ha */
+
+#loader{
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    border-top-color: #333;
+    animation: rotate 1s infinite;
+}
+/* or is me loader ki width or height and radius kra */
+@keyframes rotate {
+    100%{
+        rotate: 360deg;
+    }
+}
+/* keyframes me bta rha ha 360 deg par rotate karega 
+ye property @keyframes animation par lgti ha jb apko animation lganai ho  */
